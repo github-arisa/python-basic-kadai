@@ -24,18 +24,11 @@ array = ["水","金","地","火","木","土","天","海","冥"]
 """
 array = ["水","金","地","火","木","土","天","海","冥"]
 
-print("forを利用して記述")
-for i in range(2):
-  for day in array:
-    print(day)
-    if i ==2:
-      break
+for date in array:
+  print(date)
 
-print("\n")
-
-print("whileを利用して記述")
 i = 1
-while i <= 2:
-  for day in array:
-    print(day)
-  i = i + 1
+while i < 2:
+  for date in array:
+    print(date)
+  i += 1
