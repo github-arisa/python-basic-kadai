@@ -24,8 +24,8 @@ array = ["水","金","地","火","木","土","天","海","冥"]
 """
 array = ["水","金","地","火","木","土","天","海","冥"]
 
-for date in array:
-  print(date)
+for day in array:
+  print(day)
 
 
 i = 0
